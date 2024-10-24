@@ -1,0 +1,457 @@
+body {
+  color: #CFD8DC;
+}
+
+header {
+  width: 100%; /* Use full width */
+  height: 64px; /* Increase height for desktop */
+  padding: 8px 48px; /* More padding for a better look */
+  gap: 0px;
+  opacity: 1; /* Set opacity to visible */
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: Poppins;
+  font-size: 24px; /* Increased font size */
+  font-weight: 700;
+  line-height: 28px; /* Adjust line-height */
+  text-align: center;
+  color: #6070FF;
+}
+
+nav {
+  width: 40px; /* Fixed width */
+  height: 40px; /* Fixed height */
+  padding: 8px 0;
+  gap: 0px;
+  margin-right: 570px;
+  border-radius: 8px 0 0 0;
+  opacity: 1; /* Set opacity to visible */
+}
+
+nav img{
+  height: 35px;
+  width: 35px;
+}
+
+main {
+  width: 800px; /* Adjust width for desktop */
+  height: auto; /* Use auto height */
+  padding: 20px; /* Reduce padding for a compact view */
+  gap: 12px;
+  opacity: 1; /* Set opacity to visible */
+  background-image: url('bg1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about1 {
+  width: 800px; /* Same as main */
+  height: auto; /* Use auto height */
+  padding: 20px; /* Reduce padding */
+  gap: 12px;
+  opacity: 1; /* Set opacity to visible */
+}
+
+h2 {
+  font-family: Poppins;
+  font-size: 48px; /* Increased font size */
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  color: #172B4D;
+}
+
+p {
+  font-family: Poppins;
+  font-size: 20px; /* Increased font size */
+  font-weight: 400;
+  line-height: 28px;
+  text-align: justify;
+  color: #172B4D;
+}
+
+.container1 h3 {
+  font-family: Poppins;
+  font-size: 24px; /* Increased font size */
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #7F8CFF;
+  border: 1px solid #2466d8;
+  border-radius: 8px;
+  padding: 8px 12px; /* Adds space between text and border */
+  display: inline-block;
+}
+.language1 h3{
+  font-family: Poppins;
+  font-size: 24px; /* Increased font size */
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+.container {
+  width: auto; /* Allow for flexibility */
+  height: auto; /* Allow for flexibility */
+  opacity: 1; /* Set opacity to visible */
+  color: #505F79;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon svg, .icon img {
+  width: 24px; /* Increased icon size */
+  height: 24px; /* Increased icon size */
+  opacity: 1; /* Set opacity to visible */
+}
+
+.classes {
+  width: 800px; /* Same as main */
+  height: auto; /* Use auto height */
+  padding: 20px;
+  gap: 20px;
+  opacity: 1; /* Set opacity to visible */
+}
+
+.class {
+  margin-top: 20px; /* Reduced margin */
+  width: 100%; /* Full width */
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid #DFE1E6; /* Adjust border */
+  opacity: 1; /* Set opacity to visible */
+  background-color: #FFFFFF; /* Add background for contrast */
+}
+
+.image img {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Keep rounded corners */
+}
+
+.section {
+  padding-bottom: 20px; /* Reduced padding */
+  width: 100%; /* Full width */
+  height: auto; /* Use auto height */
+  opacity: 1; /* Set opacity to visible */
+  margin-top: 0; /* Adjust margin */
+}
+
+.sub1 h5 {
+  font-family: Poppins;
+  font-size: 36px; /* Increased font size */
+  font-weight: 1000;
+  line-height: 44px; /* Adjust line-height */
+  text-align: left;
+  color: #172B4D;
+}
+
+.sub11 {
+  display: flex;
+  width: auto; /* Flexible width */
+  height: auto; /* Flexible height */
+  gap: 5px;
+  opacity: 1; /* Set opacity to visible */
+  margin-top: -20px; /* Adjust margin */
+}
+
+.sub11 h6 {
+  font-family: Poppins;
+  font-size: 16px; /* Increased font size */
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: #172B4D;
+  padding-left: 0px;
+}
+
+.sub11 ul li {
+  font-family: Poppins;
+  font-size: 16px; /* Increased font size */
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #7A869A;
+  margin-top: 15px;
+}
+
+.sub2 p {
+  font-family: Poppins;
+  font-size: 20px; /* Kept size */
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #344563;
+  margin-top: 0; /* Adjust margin */
+}
+
+.sub3 {
+  display: flex;
+  gap: 15px;
+  opacity: 1; /* Set opacity to visible */
+}
+
+.sub31 button, .sub32 button, .sub4 button {
+  border-radius: 10px;
+  border-color: transparent;
+  font-family: Poppins;
+  font-size: 16px; /* Increased font size */
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #6070FF;
+  background-color: transparent;
+  margin-top: 10px; /* Adjust margin */
+}
+
+.sub31 button {
+  width: 70px; /* Adjusted width */
+  height: 36px; /* Adjusted height */
+}
+
+.sub32 button {
+  width: 100px; /* Adjusted width */
+  height: 36px; /* Adjusted height */
+}
+
+.sub4 button {
+  width: 100%; /* Full width */
+  height: 48px; /* Standard button height */
+  padding: 5px;
+  margin-top: 25px; /* Maintain margin */
+  border: 1px solid #2466d8;
+  font-size: 16px;
+}
+
+.about {
+  width: 100%; /* Full width */
+  height: auto; /* Flexible height */
+  padding: 20px; /* Adjust padding */
+  gap: 24px;
+}
+
+.about1, .about2 {
+  width: auto; /* Flexible width */
+  height: auto; /* Flexible height */
+  gap: 12px;
+}
+
+.cvButton button {
+  width: 100%; /* Full width */
+  height: 48px; /* Standard button height */
+  padding: 12px;
+  margin-top: 25px; /* Maintain margin */
+}
+
+.languages {
+  width: auto; /* Flexible width */
+  height: auto; /* Flexible height */
+  opacity: 1; /* Set opacity to visible */
+}
+
+.framework {
+  margin-top: 30px;
+  padding-bottom: 10px;
+  display: flex;
+  width: 100%; /* Full width */
+  height: auto; /* Flexible height */
+  gap: 0px;
+  opacity: 1; /* Set opacity to visible */
+  border-bottom: 1px solid #939eaf;
+}
+
+ .language2 {
+  width: 100%; /* Full width */
+  height: auto; /* Flexible height */
+  padding: 16px;
+  opacity: 1; /* Set opacity to visible */
+}
+.language1{
+  display: flex;
+  width: 100%; /* Full width */
+  height: auto; /* Flexible height */
+  padding: 16px;
+  gap: 0px;
+  opacity: 1; /* Set opacity to visible */
+}
+
+.language1 h3, .framework h3 {
+  font-family: Poppins;
+  font-size: 26px; /* Kept size */
+  font-weight: 1000;
+  line-height: 24px;
+  text-align: left;
+  color: black;
+}
+
+.arrow {
+  margin-left: 600px;
+  width: 24px;
+  height: 24px;
+  padding: 8px 5px;
+  margin-top: 15px;
+}
+.arrow1 {
+  margin-left: 670px;
+  width: 24px;
+  height: 24px;
+  padding: 8px 5px;
+  margin-top: 15px;
+}
+.arrow1 svg {
+  width: 18px;
+  height: 18px;
+ 
+}
+.arrow svg {
+  width: 18px;
+  height: 18px;
+ 
+}
+
+.language21 {
+  display: flex;
+  width: 100%; /* Full width */
+  height: 55px; /* Standard height */
+  padding: 9px 12px;
+  margin-top: 5px;
+  border-radius: 8px;
+  opacity: 1; /* Set opacity to visible */
+  background-color: #F7F7F9;
+}
+
+.language21 img {
+  width: 48px;
+  height: 48px;
+  border-radius: 90px; /* Keep rounded */
+  border: 1px solid #FFFFFF;
+}
+
+.language21 h4 {
+  margin-left: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 1000;
+  line-height: 24px;
+  text-align: left;
+  color: #172B4D;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress {
+  width: 50%; /* Increased width */
+  height: 10px; /* Standard height */
+  border-radius: 8px;
+  background-color: #DFE1E6;
+}
+
+.progress-bar {
+  width: 80%; /* Adjust based on progress */
+  height: 100%; /* Full height */
+  border-radius: 8px;
+  background-color: #6070FF; /* Color of progress */
+}
+
+.footer {
+  width: 100%;
+  height: 48px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url('bg2.png');
+  background-repeat: no-repeat;
+}
+form{
+  background-image: url('bg2.png');
+  background-repeat: no-repeat;
+}
+
+form h1 {
+  width: 800px; /* Adjusted width for desktop */
+  height: 64px; /* Increased height */
+  margin-left: auto; /* Center align */
+  margin-right: auto; /* Center align */
+  padding-top: 80px; /* Adjust padding for a better look */
+  font-family: Poppins;
+  font-size: 48px; /* Increased font size */
+  font-weight: 700;
+  line-height: 56px; /* Adjust line height */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+form p {
+  width: 400px; /* Adjusted width for desktop */
+  height: auto; /* Changed to auto for flexibility */
+  font-family: Poppins;
+  font-size: 20px; 
+  margin-left: auto; /* Center align */
+  margin-right: auto; /* Center align */
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+}
+
+#fname, #mail {
+  margin-left: auto; /* Center align */
+  margin-right: auto; /* Center align */
+  margin-top: 15px;
+  width: 400px; /* Increased width for desktop */
+  height: 48px; /* Standard height */
+  border-radius: 8px;
+  border: 1px solid #CFD8DC;
+  background-color: #FFFFFF;
+  color: #0b0d0f;
+  font-size: 16px; /* Increased font size for better readability */
+}
+
+input {
+  padding-left: 20px; /* Consistent padding */
+}
+
+#message {
+  margin-left: auto; /* Center align */
+  margin-right: auto; /* Center align */
+  margin-top: 15px;
+  width: 400px; /* Increased width for desktop */
+  height: 150px; /* Standard height */
+  border-radius: 8px;
+  border: 1px solid #CFD8DC;
+  background-color: #FFFFFF;
+  color: #8995a1;
+  font-size: 16px; /* Increased font size */
+}
+
+#submit {
+  padding-left: 6px;
+  color: #6070FF;
+  font-size: 16px; /* Increased font size */
+  font-weight: 600; /* Corrected to proper weight */
+  margin-left: auto; /* Center align */
+  margin-right: auto; /* Center align */
+  margin-top: 15px;
+  width: 150px; /* Increased width for better interaction */
+  height: 48px; /* Standard height */
+  border-radius: 8px;
+  border: 1px solid #CFD8DC;
+  background-color: #FFFFFF;
+  cursor: pointer; /* Change cursor to pointer for button */
+}
+
